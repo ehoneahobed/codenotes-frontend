@@ -8,6 +8,8 @@ import NoteDetails from "./Components/notedetails/NoteDetails";
 
 import "./App.css";
 
+export const URL = process.env.REACT_APP_API_URL;
+
 function App() {
 	return (
 		<Router className="App">

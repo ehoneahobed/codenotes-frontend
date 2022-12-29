@@ -17,7 +17,6 @@ function NoteCard({ note }) {
             Last Updated At:{" "}
             <span>{new Date(note.updatedAt).toDateString()}</span>
           </p>
-          {/* <p className="notes__card-date">By: <span>{note.username}</span></p> */}
         </div>
       </Link>
     </article>
