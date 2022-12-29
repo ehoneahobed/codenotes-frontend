@@ -27,7 +27,7 @@ function AddNote(props) {
     }
     try {
       const res = await axios.post(`${URL}/notes`, newNote);
-      window.location.replace("/note/"+ res.data._id);    
+      window.location.replace(`${URL}/note/`+ res.data._id);    
     } catch (error) {
       
     }
